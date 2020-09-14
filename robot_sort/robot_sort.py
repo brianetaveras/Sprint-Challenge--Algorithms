@@ -111,10 +111,10 @@ class SortingRobot:
 
             while self.can_move_left() and self.compare_item() is not None:
                 self.move_left()
-                
+
             self.swap_item()
             self.move_right()
-        return
+    
 
 
 if __name__ == "__main__":
